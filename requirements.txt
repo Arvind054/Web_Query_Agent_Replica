@@ -1,0 +1,29 @@
+fastapi
+uvicorn
+# Vector DB
+chromadb
+playwright
+sentence-transformers
+google-generativeai
+langchain_community
+# LangChain Core
+langchain
+langchain-core
+#Groq 
+langchain-groq
+#Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+# Environment Variable Management
+python-dotenv
+
+#Duck Duck go Search
+duckduckgo-search
+
+# for scraping
+beautifulsoup4

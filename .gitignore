@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables
+.env
+
+# VSCode/IDE Files
+.vscode/
+.idea/
+
+# Chroma DB Local Cache
+chroma_query_cache/
+
+# Backend specific
+backend/__pycache__/
+
+# Mac & OS-specific
+.DS_Store
+Thumbs.db
