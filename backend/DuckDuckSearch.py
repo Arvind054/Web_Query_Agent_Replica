@@ -1,21 +1,10 @@
+#Scrape the Web for the user's Query Using the DuckDuckGo search and BeautifulSoup
 from ddgs import DDGS
 import requests
 from bs4 import BeautifulSoup
 
 def scrape_top_sites(query: str, max_sites: int = 5, chars_limit: int = 1000) -> str:
-    """
-    Search DuckDuckGo for a query and scrape text content from the top results.
-    
-    Parameters:
-        query (str): Search term.
-        max_sites (int): Number of top results to fetch. Default is 5.
-        chars_limit (int): Max characters to extract from each page. Default is 1000.
-
-    Returns:
-        str: Concatenated summary of content from the top pages.
-    """
     summaries = []
-
     try:
         with DDGS() as ddgs:
             results = list(ddgs.text(query, max_results=max_sites))
